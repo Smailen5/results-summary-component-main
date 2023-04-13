@@ -32,7 +32,7 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: black;
+    background-color: hsla(241, 81%, 54%, 0.3);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,7 +62,7 @@ main {
     flex-direction: column;
 }
 /* sfondo dati */
-#summary {background: none;}
+#summary {background: none;margin: 10px 0 0;}
 #reaction {background-color: hsla(0, 100%, 67%, 0.1);}
 #memory {background-color: hsla(39, 100%, 56%, 0.1);}
 #verbal {background-color: hsla(166, 100%, 37%, 0.1);}
@@ -102,10 +102,18 @@ main {
 
 main img {
     margin: 20px;
-    /* border: 1px solid red; */
     width: 1.2em;
 }
 
-strong {
-    font-weight: 700;
-}
+strong {font-weight: 700;}
+#big-num{font-size: 3em;}
+.trasparent{color: hsla(0, 0%, 100%, 0.3);}
+#sub-title{font-size: 1em; margin: 10px 0;}
+#great{font-weight: 500;font-size: 2em;}
+p{font-weight: 800;}
+
+#reaction p{color: hsl(0, 100%, 67%);}
+#memory p{color: hsl(39, 100%, 56%);}
+#verbal p{color: hsl(166, 100%, 37%);}
+#visual p{color: hsl(234, 85%, 45%);}
+span{color: hsla(0, 1%, 17%, 0.3);}
