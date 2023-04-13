@@ -47,7 +47,13 @@
     font-size: 0.8em;
     text-align: center;
 }
-main{display: flex;align-items: center;flex-direction: column;}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 /* contenitore per tutti i dati */
 .main {
     width: 80%;
@@ -55,22 +61,32 @@ main{display: flex;align-items: center;flex-direction: column;}
     display: flex;
     flex-direction: column;
 }
-#summary{background: none;}
-/* classe per dati */
+/* sfondo dati */
+#summary {background: none;}
+#reaction {background-color: hsla(0, 100%, 67%, 0.1);}
+#memory {background-color: hsla(39, 100%, 56%, 0.1);}
+#verbal {background-color: hsla(166, 100%, 37%, 0.1);}
+#visual {background-color: hsla(234, 85%, 45%, 0.1);}
 
-.mrg{
-    margin: 10px 0;
-}
 /* contenitore singolo dato */
-.container-dati{
+.container-dati {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
     height: 60px;
     background-color: #ccc;
+    margin: 10px 0;
 }
-.title-dato{display: flex;align-items: center;}
+.dato{
+    margin-right: 15px;
+}
+
+.title-dato {
+    display: flex;
+    align-items: center;
+}
+
 /* bottone continua */
 .button {
     width: 100%;
@@ -83,6 +99,13 @@ main{display: flex;align-items: center;flex-direction: column;}
     display: flex;
     align-items: center;
 }
-/* #reaction{align-items: center;} */
-/* .title-dato{display: flex; align-items: center;} */
-main img{margin: 15px;}
+
+main img {
+    margin: 20px;
+    /* border: 1px solid red; */
+    width: 1.2em;
+}
+
+strong {
+    font-weight: 700;
+}
