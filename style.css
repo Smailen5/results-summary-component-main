@@ -51,7 +51,7 @@ main{display: flex;align-items: center;flex-direction: column;}
 /* contenitore per tutti i dati */
 .main {
     width: 80%;
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     flex-direction: column;
 }
@@ -75,8 +75,11 @@ main{display: flex;align-items: center;flex-direction: column;}
 /* bottone continua */
 .button {
     width: 100%;
-    height: 50px;
+    height: 60px;
     background: hsl(224, 30%, 27%);
     border-radius: 30px;
+    color: #fff;
+    justify-content: center;
+    margin-top: 10px;
 
 }
