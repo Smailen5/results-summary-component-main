@@ -29,8 +29,8 @@
 
 /* palla con i numeri dentro */
 .circle {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: black;
     display: flex;
@@ -57,7 +57,12 @@ main{display: flex;align-items: center;flex-direction: column;}
 }
 #summary{background: none;}
 /* classe per dati */
-.flex{
+
+.mrg{
+    margin: 10px 0;
+}
+/* contenitore singolo dato */
+.container-dati{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,13 +70,7 @@ main{display: flex;align-items: center;flex-direction: column;}
     height: 60px;
     background-color: #ccc;
 }
-.mrg-btt{
-    margin: 10px 0;
-}
-/* contenitore singolo dato */
-.container-dati{
-   
-}
+.title-dato{display: flex;align-items: center;}
 /* bottone continua */
 .button {
     width: 100%;
@@ -81,5 +80,9 @@ main{display: flex;align-items: center;flex-direction: column;}
     color: #fff;
     justify-content: center;
     margin-top: 10px;
-
+    display: flex;
+    align-items: center;
 }
+/* #reaction{align-items: center;} */
+/* .title-dato{display: flex; align-items: center;} */
+main img{margin: 15px;}
