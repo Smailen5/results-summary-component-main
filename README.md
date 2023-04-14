@@ -1,7 +1,3 @@
-# Frontend Mentor - Results summary component solution
-
-This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
 ## Table of contents
 
   - [The challenge](#the-challenge)
@@ -15,8 +11,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Acknowledgments](#acknowledgments)
 
 ### The challenge
-
-Users should be able to:
 
 - The challenge was starting from the mobile version and then adapting it to the desktop
 - See hover state for button element on the page
@@ -42,7 +36,7 @@ Users should be able to:
 
 ### What I learned
 
-In this exercise I improved my understanding of @media.I used the pseudo class :hover also adding cursor pointer and removing the possibility that the user can select the text of the button by mistake.
+In this exercise I improved my understanding of Media Queries. I used the pseudo class :hover also adding cursor pointer and removing the possibility that the user can select the text of the button by mistake.
 
 ### Continued development
 
